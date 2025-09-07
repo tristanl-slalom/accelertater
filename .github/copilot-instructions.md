@@ -108,11 +108,11 @@ At the end of each coding session, run:
 4. `make lint` - Run additional linting if configured
 
 ### Rule 6: CLI Application Name and Installation
-- The CLI application name is **'Tater'**
-- After running `make install`, the CLI should be available as `tater` command in the terminal
-- All sub-commands should be accessed via `tater <sub-command>` pattern
-- Example: If creating a Dad Joke command, it should be run as `tater dad-joke`
-- Configure the entry point in `pyproject.toml` to map `tater` to the main CLI function
+- The CLI application name is **'Taters'**
+- After running `make install`, the CLI should be available as `taters` command in the terminal
+- All sub-commands should be accessed via `taters <sub-command>` pattern
+- Example: If creating a Dad Joke command, it should be run as `taters dad-joke`
+- Configure the entry point in `pyproject.toml` to map `taters` to the main CLI function
 - Use kebab-case for multi-word sub-command names
 
 ### Rule 7: Dependency Injection with Container
