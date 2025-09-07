@@ -48,7 +48,14 @@ addopts = "--cov=src --cov-report=term-missing --cov-fail-under=80"
 
 [tool.coverage.run]
 source = ["src"]
-omit = ["tests/*", "*/test_*"]
+omit = [
+    "tests/*", 
+    "*/test_*",
+    "*/dependency_injector/containers.pyx",
+    "*/dependency_injector/providers.pyx",
+    "*/.venv/*",
+    "*/site-packages/*"
+]
 
 [tool.coverage.report]
 exclude_lines = [
