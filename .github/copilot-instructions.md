@@ -107,7 +107,15 @@ At the end of each coding session, run:
 3. `make test` - Run full test suite
 4. `make lint` - Run additional linting if configured
 
-### Rule 6: Dependency Injection with Container
+### Rule 6: CLI Application Name and Installation
+- The CLI application name is **'Tater'**
+- After running `make install`, the CLI should be available as `tater` command in the terminal
+- All sub-commands should be accessed via `tater <sub-command>` pattern
+- Example: If creating a Dad Joke command, it should be run as `tater dad-joke`
+- Configure the entry point in `pyproject.toml` to map `tater` to the main CLI function
+- Use kebab-case for multi-word sub-command names
+
+### Rule 7: Dependency Injection with Container
 - Use the `dependency-injector` library (https://python-dependency-injector.ets-labs.org/) for managing dependencies
 - Create a centralized `Container` class to define and wire all dependencies
 - Use dependency injection to construct Actions, Services, and Repositories
