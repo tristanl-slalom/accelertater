@@ -38,6 +38,11 @@ accelertater/
 
 ## Installation
 
+### Requirements
+
+- Python 3.12 or higher
+- pip
+
 ### Development Setup
 
 1. Clone the repository:
