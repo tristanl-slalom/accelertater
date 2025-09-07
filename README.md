@@ -1,5 +1,11 @@
 # Taters 🥔
 
+[![CI/CD Pipeline](https://github.com/tristanl-slalom/accelertater/actions/workflows/ci.yml/badge.svg)](https://github.com/tristanl-slalom/accelertater/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/tristanl-slalom/accelertater/branch/main/graph/badge.svg)](https://codecov.io/gh/tristanl-slalom/accelertater)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Type Checking: mypy](https://img.shields.io/badge/type%20checking-mypy-blue.svg)](https://github.com/python/mypy)
+
 A Python CLI accelerator built with Typer, demonstrating clean architecture and dependency injection patterns.
 
 ## Features
