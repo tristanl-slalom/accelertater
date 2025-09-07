@@ -1,4 +1,4 @@
-# Python CLI Accelerator - Cursor Rules
+# Python CLI Accelerator - GitHub Copilot Instructions
 
 ## Framework & Architecture
 
